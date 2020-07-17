@@ -1,0 +1,50 @@
+
+        body {
+            background: url(bmi2.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            -webkit-background-composite: border;
+            
+
+        }
+        .form {
+            margin-top: 7%;
+            padding-top: 2%;
+            opacity: 0.9;
+            border: 4px ridge lightgrey;
+            border-radius: 12px;            
+ 
+        }
+        span {
+            font-size: 65px;
+            font-family: cursive;
+            color: #fff;
+        }
+        .finalResult {
+            width: 80%;
+            margin: auto;
+            border-radius: 5px;
+            color: #fff;
+
+        }     
+        @media screen and (min-width: 1024px) {
+            .finalResult {
+                width: 50%;
+            }
+        }  
+        @media screen and (min-width: 568px) and (max-width: 600px) {
+            .finalResult {
+                width: 80%;
+            }
+            span {
+                font-size: 45px;
+            }
+        }
+        @media only screen and (min-device-width : 320px) and (max-device-width : 568px) { 
+            span {
+                font-size: 30px;
+            }
+            .finalResult {
+                width: 80%;
+            }
+        }
